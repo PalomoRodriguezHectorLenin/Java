@@ -1,4 +1,4 @@
-package src.poo;
+package src.herencia;
 
 public class Persona {
     //Clase de tipo pojo
@@ -29,4 +29,16 @@ public class Persona {
     public void setEdad(int edad){
         this.edad = edad;
     }
+    //Metodo para mostrar la informacino de la persona
+    public void mostrarInformacion(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+    }
+    /*
+    Modificadores de acceso
+    Public: Se utiliza para que los metodos sean accesibles desde cualquier
+           parte
+    Private: Solo los metodos sean accesibles desde la misma clase
+    Protected: Es accesible desde el paquete y desde las subclases
+     */
 }
